@@ -4,7 +4,7 @@
 * to demonstrate skills in Web APIs and JavaScript
 
 ## Website
-https://lakelonbailey.github.io/code-quiz/
+https://lakelonbailey.github.io/Code-Quiz/
 
 ## Built With
 * HTML
