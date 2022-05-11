@@ -1,15 +1,19 @@
 * {
+    border 1px solid red;
 }
 
 header ul {
+    height: 50px;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 main {
+    height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 .quiz {
 
