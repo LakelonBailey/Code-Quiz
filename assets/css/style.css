@@ -1,7 +1,10 @@
-* {
-    border 1px solid red;
+body {
+    background-color: gray;
+    height: 100%;
 }
-
+.header {
+    height: 10%;
+}
 header ul {
     height: 50px;
     list-style: none;
@@ -9,12 +12,58 @@ header ul {
     justify-content: space-between;
     align-items: center;
 }
+.start-container p {
+    width: 40%;
+    text-align: center;
+}
+.question-container, .start-container {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.start-container {
+    align-items: center;
+}
 main {
-    height: 500px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 .quiz {
-
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: flex-start;
+}
+.btn {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding: 4px;
+    background-color: aqua;
+    margin: 6px;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+}
+.radio {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+.btn:hover {
+    box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+}
+.choice {
+    border: 2px solid gray;
+    margin: 10px 0;
+    padding: 4px;
+}
+.choice:hover {
+    border: 2px solid aqua;
+}
+footer {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
 }
